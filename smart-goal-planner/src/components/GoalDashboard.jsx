@@ -30,7 +30,7 @@ const GoalDashboard = () => {
   return (
     <div>
       <OverviewPanel goals={goals} />
-      <AddGoalForm onAddGoal={onAddGoal} />
+      <GoalForm onAddGoal={onAddGoal} />
       <DepositForm goals={goals} onUpdateGoal={onUpdateGoal} />
       <GoalList goals={goals} onUpdateGoal={onUpdateGoal} onDeleteGoal={onDeleteGoal} />
     </div>
