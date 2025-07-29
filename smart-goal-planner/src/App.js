@@ -1,5 +1,5 @@
 import React from 'react';
-import GoalDashboard from './GoalDashboard';
+import GoalDashboard from './components/GoalDashboard';
 
 function App() {
   return (

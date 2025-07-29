@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchGoals, createGoal, updateGoal, deleteGoal } from './api';
 import GoalList from './GoalList';
-import AddGoalForm from './AddGoalForm';
+import GoalForm from './GoalForm';
 import DepositForm from './DepositForm';
 import OverviewPanel from './OverviewPanel';
 
